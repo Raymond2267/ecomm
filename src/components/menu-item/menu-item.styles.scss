@@ -27,7 +27,6 @@
   }
 
   &:first-child {
-    //takes in parent styles and can add additional style
     margin-right: 7.5px;
   }
 
@@ -38,12 +37,11 @@
   .background-image {
     width: 100%;
     height: 100%;
-    background-position: center;
     background-size: cover;
+    background-position: center;
   }
 
   .content {
-    //any elements with these classes inherits parent styles
     height: 90px;
     padding: 0 25px;
     display: flex;
@@ -57,7 +55,7 @@
 
     .title {
       font-weight: bold;
-      margin-bottom: 6px;
+      margin: 0 6px 0;
       font-size: 22px;
       color: #4a4a4a;
     }
